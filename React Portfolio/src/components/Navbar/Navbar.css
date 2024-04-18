@@ -23,10 +23,11 @@ img {
     border-radius: 50px;
     font-size: 20px;
     cursor: pointer;
-    background-color: #2d3436;
-    background: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    background-color: #4C8055;
+    /* background: linear-gradient(315deg, #31473A 0%, #666c4e 74%); */
 }
 
 .nav-connect:hover {
-    transform:scale(1.05)
+    transform:scale(1.03);
+    transition: 0.5s;
 }

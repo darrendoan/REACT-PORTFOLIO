@@ -4,3 +4,58 @@
     align-items: center;
     gap: 30px;
 }
+
+.hero img {
+    margin-top: 50px;
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero p {
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hero-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background:  #4C8055;
+    cursor: pointer;
+}
+
+.hero-connect:hover {
+    transform:scale(1.03);
+    transition: 0.5s;
+}
+
+.hero-resume {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background:  #31473A;
+    cursor: pointer;
+    border: 2px solid #EDF4F2;
+}
+
+.hero-resume:hover {
+    transform:scale(1.03);
+    transition: 0.5s;
+}
