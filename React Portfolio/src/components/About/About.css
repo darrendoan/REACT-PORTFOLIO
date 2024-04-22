@@ -23,7 +23,7 @@
 }
 
 .about-left img {
-    height:100% ;
+    max-height: 100% ;
     width: 400px;
     border-radius: 50px;
 }
@@ -61,3 +61,30 @@
     transform:scale(1.05);
     transition: 0.5s;
 }
+
+@media(max-width:768px) {
+    .about {
+      gap: 80px;
+      margin: 50px 70px;
+    }
+    .about-title h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+    .about-title img {
+        width: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-sections {
+        flex-direction: column;
+    }
+    .about-left img {
+        display: none;
+    }
+    .about-paragraphs {
+        font-size: 18px;
+        line-height: 32px;
+    }
+  }

@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,9 +25,9 @@ img {
     cursor: pointer;
     background-color: #4C8055;
     /* background: linear-gradient(315deg, #31473A 0%, #666c4e 74%); */
-}
+/* } */
 
-.nav-connect:hover {
+/* .nav-connect:hover {
     transform:scale(1.03);
     transition: 0.5s;
-}
+} */
